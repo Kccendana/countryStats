@@ -1,0 +1,27 @@
+section.hero {
+  background-color: #fc5193;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 2em;
+  height: 45vh;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.continent-detail {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.continent-detail h1 {
+  font-size: 2.25em;
+}

@@ -1,0 +1,25 @@
+.filter {
+  background-color: white;
+  color: #b13967;
+  padding: 0.5em;
+  border-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+input.filter-input {
+  border: none;
+  color: #b13967;
+  font-size: 0.9em;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  color: #b13967;
+  width: 205px;
+  padding: 0.5em;
+  text-align: left;
+  border-bottom-left-radius: 8px;
+  top: 46px;
+  border-bottom-right-radius: 8px;
+}
