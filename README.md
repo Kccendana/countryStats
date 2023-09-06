@@ -153,7 +153,7 @@ If you like this project feel free to follow this project and hit the star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
--We would like to thank Microverse for helping us improve my skills in web design and give us opportunity to collaborate.
+-We would like to thank Microverse for helping us improve my skills in web design and give us opportunity to collaborate. And also thank you for the woderful design of [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
