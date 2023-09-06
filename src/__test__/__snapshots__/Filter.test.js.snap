@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Filter component matches the snapshot 1`] = `
+<div>
+  <section
+    class="filter-container"
+  >
+    <div
+      class="filter"
+    >
+      <input
+        class="filter-input"
+        placeholder="Filter by Region"
+        readonly=""
+        type="text"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-angle-down "
+        data-icon="angle-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </section>
+</div>
+`;

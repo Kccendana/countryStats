@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CountryCards component matches the snapshot 1`] = `
+<div>
+  <div>
+    <p
+      class="subtitle"
+    >
+      All countries
+    </p>
+    <ul
+      class="countryList"
+    />
+  </div>
+</div>
+`;

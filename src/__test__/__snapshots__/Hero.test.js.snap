@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Hero component matches the snapshot 1`] = `
+<div>
+  <section
+    class="hero"
+  >
+    <img
+      alt=""
+      src="world.svg"
+    />
+    <div
+      class="continent-detail"
+    >
+      <h1>
+        WORLD
+      </h1>
+      <p>
+        0
+         
+        countries
+      </p>
+    </div>
+  </section>
+</div>
+`;
