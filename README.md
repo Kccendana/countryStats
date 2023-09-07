@@ -53,7 +53,7 @@
 
 - **Display list countries**
 - **Filter countries by region**
-- **Get deatil information about a country**
+- **Get detil information about a country**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,7 +61,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
- [Live Demo Link](coming soon)
+ [Live Demo Link](https://countrydatastats.netlify.app/)<br/>
+ [Video Presentation](https://www.loom.com/share/84a51eea7db44cd5ae425d448de32b51)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +154,7 @@ If you like this project feel free to follow this project and hit the star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
--We would like to thank Microverse for helping us improve my skills in web design and give us opportunity to collaborate.
+-We would like to thank Microverse for helping us improve my skills in web design and give us opportunity to collaborate. And also thank you for the woderful design of [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

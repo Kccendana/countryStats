@@ -1,0 +1,94 @@
+ul.countryList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.cards {
+  width: auto;
+  position: relative;
+}
+
+.info {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 1em;
+}
+
+ul.countryList li {
+  background-color: #db4681;
+  padding-bottom: 1.25em;
+}
+
+ul.countryList li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.countryList li:nth-child(4n-1),
+.countryList li:nth-child(4n-2) {
+  background-color: #c04778;
+}
+
+img.flag {
+  max-width: 100%;
+  height: auto;
+}
+
+.info h2 {
+  font-size: 1.05em;
+  margin-top: 0.5em;
+  text-align: right;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.img-con {
+  position: relative;
+  overflow: hidden;
+  margin: 1.25em;
+}
+
+.button {
+  border: 2px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e83779;
+  color: white;
+  font-size: 0.75em;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  color: white;
+  font-weight: 500;
+  font-size: 0.85em;
+  padding: 0.25em 1em;
+  background-color: #cf4378;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 49em) {
+  ul.countryList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  ul.countryList li:nth-child(even) {
+    background-color: #c04778;
+  }
+
+  ul.countryList li:nth-child(odd) {
+    background-color: #db4681;
+    padding-bottom: 1.25em;
+  }
+}

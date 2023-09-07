@@ -1,0 +1,85 @@
+.countryDetails {
+  background-color: #fe5395;
+  height: 100vh;
+  position: relative;
+  padding-top: 3em;
+}
+
+.backBtn {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  color: white;
+  background-color: transparent;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.25em;
+  border: 2px solid white;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+  padding: 1.5em;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.name img {
+  width: 50%;
+}
+
+ul.listDetails {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.listDetails li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.listTitle {
+  font-weight: 500;
+  text-align: left;
+}
+
+.listDetails li:nth-child(even) {
+  background-color: #cf4378;
+}
+
+.countryDet {
+  color: white;
+  font-weight: 500;
+  font-size: 0.85em;
+  padding: 0.25em 1em;
+  background-color: #cf4378;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.detail-info h1 {
+  font-size: 1.25em;
+  margin-top: 1em;
+  text-align: right;
+}
+
+.listDetails li a {
+  color: white;
+}
+
+span.listDetail {
+  text-align: right;
+}

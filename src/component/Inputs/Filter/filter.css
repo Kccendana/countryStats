@@ -1,0 +1,27 @@
+.filter {
+  background-color: white;
+  color: #b13967;
+  padding: 0.35em;
+  border-radius: 6px;
+  display: flex;
+  width: 150px;
+}
+
+input.filter-input {
+  border: none;
+  color: #b13967;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  color: #b13967;
+  width: 150px;
+  padding: 0.5em;
+  text-align: left;
+  border-bottom-left-radius: 6px;
+  top: 40px;
+  border-bottom-right-radius: 6px;
+}
