@@ -30,7 +30,7 @@ function CountryDetail() {
         <div className="county-details" key={data.name.common}>
           <div className="name">
             <img src={data.flags.png} alt={data.name.common} />
-            <div className="info">
+            <div className="detail-info">
               <h1>{data.name.common}</h1>
               <span>{data.population}</span>
             </div>
@@ -40,12 +40,12 @@ function CountryDetail() {
             <li>
               <span className="listTitle">Official Name:</span>
               {' '}
-              <span>{data.name.official}</span>
+              <span className="listDetail">{data.name.official}</span>
             </li>
             <li>
               <span className="listTitle">Region:</span>
               {' '}
-              <span className="litstDetail">{data.region}</span>
+              <span className="listDetail">{data.region}</span>
             </li>
             <li>
               <span className="listTitle">Subregion:</span>

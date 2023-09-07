@@ -14,7 +14,7 @@ function Hero() {
   const regionImages = {
     asia,
     africa,
-    ceania: oceania,
+    oceania,
     americas,
     europe,
     world,

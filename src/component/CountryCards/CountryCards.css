@@ -1,12 +1,11 @@
 ul.countryList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr;
   color: white;
 }
 
 .cards {
   width: auto;
-  height: 250px;
   position: relative;
 }
 
@@ -20,54 +19,76 @@ ul.countryList {
 ul.countryList li {
   background-color: #db4681;
   padding-bottom: 1.25em;
-  box-shadow: 4px 4px 13px 1px rgba(0, 0, 0, 0.28);
-  height: 300px;
 }
 
-ul.countryList li:nth-child(even) {
+ul.countryList li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.countryList li:nth-child(4n-1),
+.countryList li:nth-child(4n-2) {
   background-color: #c04778;
 }
 
 img.flag {
-  width: 100%;
-  height: 180px;
+  max-width: 100%;
+  height: auto;
 }
 
 .info h2 {
-  font-size: 1.2em;
-  margin-top: 1em;
+  font-size: 1.05em;
+  margin-top: 0.5em;
   text-align: right;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .img-con {
   position: relative;
   overflow: hidden;
-}
-
-.img-con:hover .overlay {
-  bottom: 250px;
+  margin: 1.25em;
 }
 
 .button {
-  border: 3px solid white;
-  width: 30px;
-  height: 30px;
+  border: 2px solid white;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background-color: #c0477777;
+  background-color: #e83779;
   color: white;
-  font-size: 1.2em;
+  font-size: 0.75em;
   position: absolute;
   top: 10px;
   right: 10px;
   cursor: pointer;
-  box-shadow: 4px 4px 13px 1px rgba(0, 0, 0, 0.28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subtitle {
   color: white;
   font-weight: 500;
-  font-size: 1.1em;
+  font-size: 0.85em;
   padding: 0.25em 1em;
   background-color: #cf4378;
   text-align: left;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 49em) {
+  ul.countryList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  ul.countryList li:nth-child(even) {
+    background-color: #c04778;
+  }
+
+  ul.countryList li:nth-child(odd) {
+    background-color: #db4681;
+    padding-bottom: 1.25em;
+  }
 }

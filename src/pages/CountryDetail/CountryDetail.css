@@ -34,6 +34,10 @@
   color: white;
 }
 
+.name img {
+  width: 50%;
+}
+
 ul.listDetails {
   color: white;
   display: flex;
@@ -42,13 +46,14 @@ ul.listDetails {
 
 .listDetails li {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
+}
+
+.listTitle {
   font-weight: 500;
-  font-size: 1.1em;
-  height: 50px;
+  text-align: left;
 }
 
 .listDetails li:nth-child(even) {
@@ -58,18 +63,23 @@ ul.listDetails {
 .countryDet {
   color: white;
   font-weight: 500;
-  font-size: 1.1em;
+  font-size: 0.85em;
   padding: 0.25em 1em;
   background-color: #cf4378;
   text-align: left;
+  text-transform: uppercase;
 }
 
-.info h1 {
-  font-size: 1.5em;
+.detail-info h1 {
+  font-size: 1.25em;
   margin-top: 1em;
   text-align: right;
 }
 
 .listDetails li a {
   color: white;
+}
+
+span.listDetail {
+  text-align: right;
 }
